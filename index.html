@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#060608">
+<title>Malust — Sneakers en Medellín</title>
+<link rel="icon" href="data:,">
+<link rel="preload" as="font" type="font/woff2" href="fuentes/titulos.woff2" crossorigin>
+<link rel="stylesheet" href="estilos.css">
+<link rel="preload" as="image" href="frames/720/f001.webp" media="(max-width: 800px)">
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<main>
+  <section class="escenario" aria-label="El tenis se arma, se ata y pisa fuerte">
+    <div class="escena__fijo">
+      <canvas id="secuencia" class="escena__lienzo" role="img" aria-label="Tenis Malust en animación"></canvas>
+      <canvas id="visor" class="escena__lienzo escena__visor" aria-label="Tenis Malust en 3D: arrastra para girarlo"></canvas>
+
+      <div class="capitulo capitulo--portada es-visible" data-desde="1" data-hasta="14">
+        <h1 class="marca" aria-label="Malust"><img src="wordmark.svg" alt="" width="647" height="176"></h1>
+        <p class="capitulo__bajada">Sneakers en Medellín</p>
+      </div>
+      <p class="capitulo" data-desde="20" data-hasta="58"><span class="titular">Pieza<br>por pieza.</span></p>
+      <p class="capitulo" data-desde="68" data-hasta="108"><span class="titular">Cada detalle<br>en su lugar.</span></p>
+      <p class="capitulo" data-desde="124" data-hasta="152"><span class="titular titular--acento">Pisa fuerte.</span></p>
+
+      <p class="escena__indicador" data-desde="1" data-hasta="10">Desliza <span aria-hidden="true">↓</span></p>
+      <p id="visor-pista" class="escena__pista">Arrastra para girarlo</p>
+    </div>
+    <div id="escena" class="tramo tramo--secuencia"></div>
+    <div id="visor-tramo" class="tramo tramo--visor"></div>
+  </section>
+
+  <section class="bloque bloque--prueba">
+    <a class="calificacion" href="https://www.google.com/maps/search/?api=1&amp;query=Malust%20Brand%20%7C%20Sneakers%20Tenis&amp;query_place_id=ChIJZYKokzQpRI4RMCtvFjxfAMM" target="_blank" rel="noopener">
+      <span class="calificacion__nota">5.0</span>
+      <span class="calificacion__texto">en Google · 61 reseñas</span>
+    </a>
+    <h2 class="bloque__titulo">Para los que caminan Medellín a su manera.</h2>
+    <p class="bloque__texto">Tenis pensados para llevarse puestos todo el día y para que se noten. Míralos de cerca, gíralos y escríbenos: te contamos qué hay disponible.</p>
+  </section>
+
+  <section class="bloque bloque--ejemplo" data-ejemplo>
+    <p class="etiqueta-ejemplo">Contenido de ejemplo</p>
+    <h2 class="bloque__titulo">Así se verían tus modelos.</h2>
+    <p class="bloque__texto">Precios, nombres y opiniones de esta sección son de ejemplo: aquí irían los reales.</p>
+    <ul class="tarjetas">
+      <li class="tarjeta"><span class="tarjeta__nombre">Modelo 01</span><span class="tarjeta__precio">$189.900</span></li>
+      <li class="tarjeta"><span class="tarjeta__nombre">Modelo 02</span><span class="tarjeta__precio">$219.900</span></li>
+      <li class="tarjeta"><span class="tarjeta__nombre">Modelo 03</span><span class="tarjeta__precio">$249.900</span></li>
+    </ul>
+    <blockquote class="opinion">“Aquí iría la opinión de un cliente real sobre sus tenis.”<cite>Cliente de ejemplo</cite></blockquote>
+    <blockquote class="opinion">“Y aquí, otra opinión real: cómo le quedaron, cómo fue la compra.”<cite>Cliente de ejemplo</cite></blockquote>
+  </section>
+
+  <section class="bloque bloque--contacto">
+    <h2 class="bloque__titulo">Ven a verlos o pregúntanos por WhatsApp.</h2>
+    <address class="direccion">CL 78B #85a-30, El Diamante<br>Medellín, Antioquia</address>
+    <div class="enlaces">
+      <a class="boton boton--principal" href="https://wa.me/573117141226?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20tenis" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+      <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=Malust%20Brand%20%7C%20Sneakers%20Tenis&amp;query_place_id=ChIJZYKokzQpRI4RMCtvFjxfAMM" target="_blank" rel="noopener">Cómo llegar</a>
+      <a class="boton" href="https://www.instagram.com/malustbrand/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </section>
+</main>
+
+<a id="cta-fija" class="cta-fija" href="https://wa.me/573117141226?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20tenis" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+</body>
+</html>
